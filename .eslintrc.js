@@ -24,7 +24,7 @@ module.exports = {
     eqeqeq: "error",
     "no-unused-vars": ["error", { ignoreRestSiblings: true }],
     "no-var": "error",
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", {}],
     "react/no-unescaped-entities": ["error", { forbid: [">", '"', "}"] }],
     "react-hooks/exhaustive-deps": "off",
   },
