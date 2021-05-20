@@ -14,6 +14,8 @@
   "repository": "github:house-of-athlete/eslint-config-hoa",
   "license": "MIT",
   "peerDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/eslint-parser": "^7.14.3",
     "eslint": "^7.8.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
@@ -26,6 +28,8 @@
     "prettier": "^2.1.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/eslint-parser": "^7.14.3",
     "eslint": "^7.8.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
