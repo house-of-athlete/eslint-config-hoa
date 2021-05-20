@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-hoa",
+  "name": "@houseofathlete/eslint-config-hoa",
   "version": "1.0.0",
   "description": "ESLint and Prettier Config from HOA",
   "keywords": [
