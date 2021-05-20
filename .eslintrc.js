@@ -24,9 +24,15 @@ module.exports = {
     eqeqeq: "error",
     "no-unused-vars": ["error", { ignoreRestSiblings: true }],
     "no-var": "error",
-    "prettier/prettier": ["error", {}],
     "react/no-unescaped-entities": ["error", { forbid: [">", '"', "}"] }],
     "react-hooks/exhaustive-deps": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        arrowParens: "avoid",
+        semi: false,
+      },
+    ],
   },
   settings: {
     "import/resolver": {
@@ -38,4 +44,4 @@ module.exports = {
       version: "detect",
     },
   },
-};
+}
