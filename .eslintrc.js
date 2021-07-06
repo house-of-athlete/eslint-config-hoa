@@ -22,6 +22,7 @@ module.exports = {
   plugins: ["react", "prettier"],
   rules: {
     eqeqeq: "error",
+    "no-tabs": "error",
     "no-unused-vars": ["error", { ignoreRestSiblings: true }],
     "no-var": "error",
     "react/no-unescaped-entities": ["error", { forbid: [">", '"', "}"] }],
